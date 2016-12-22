@@ -15,7 +15,7 @@ class Form extends Component {
 }
 
 Form = reduxForm({
-  form: 'newPost'
+  form: 'someName'
 })(Form);
 
 export default Form;

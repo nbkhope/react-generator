@@ -1,9 +1,9 @@
 import React from 'react';
 
-const  = (props) => {
+const fcName = (props) => {
   return (
 
   );
 }
 
-export default ;
+export default fcName;

@@ -1,4 +1,4 @@
-export const  = () => {
+export const acName = () => {
   return dispatch => {
 
   };
