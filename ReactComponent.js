@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 
-class cName extends Component {
+class CompName extends Component {
   render() {
     return (
-      
+
     );
   }
 }
 
-export default cName;
+export default CompName;
