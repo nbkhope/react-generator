@@ -1,0 +1,24 @@
+{
+  "name": "react-generator",
+  "version": "1.0.0",
+  "description": "Quickly scaffold React components, action creators, reducers, etc.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nbkhope/react-generator.git"
+  },
+  "keywords": [
+    "React",
+    "scaffold",
+    "generate"
+  ],
+  "author": "nbkhope",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nbkhope/react-generator/issues"
+  },
+  "homepage": "https://github.com/nbkhope/react-generator#readme"
+}
