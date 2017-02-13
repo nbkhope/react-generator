@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+export const $1 = () => {
+  return {
+    type: $2
+  };
+};
+    	]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>ac</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.js</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>Action Creator</description>
+</snippet>

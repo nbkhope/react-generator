@@ -1,0 +1,26 @@
+<snippet>
+    <content><![CDATA[
+import React, { Component } from 'react';
+import { connect } from 'react-redux';
+
+class $1 extends Component {
+  render() {
+    return (
+      $2
+    );
+  }
+}
+
+const mapStateToProps = (state) => {
+  return {};
+};
+
+export default connect(mapStateToProps)($1);
+    	]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>rdc</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.js</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>Redux Component</description>
+</snippet>

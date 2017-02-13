@@ -1,0 +1,24 @@
+<snippet>
+    <content><![CDATA[
+import {
+
+} from '../actions/types';
+
+const INITIAL_STATE = {
+  $1
+};
+
+export default (state = INITIAL_STATE, action) => {
+  switch (action.type) {
+    default:
+      return state;
+  }
+};
+    	]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>rduc</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.js</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>Redux Reducer</description>
+</snippet>

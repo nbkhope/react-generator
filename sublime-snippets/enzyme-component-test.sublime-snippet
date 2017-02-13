@@ -1,0 +1,28 @@
+<snippet>
+    <content><![CDATA[
+import React from 'react';
+import { shallow } from 'enzyme';
+
+import $1 from '../../components/$1';
+
+describe('$1 component', () => {
+  let component;
+
+  beforeEach(() => {
+    component = shallow(
+      <$1 />
+    );
+  });
+
+  test('should do something', () => {
+
+  });
+});
+    	]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>ect</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.js</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>Enzyme Component Test</description>
+</snippet>
