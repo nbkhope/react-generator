@@ -1,0 +1,31 @@
+<snippet>
+    <content><![CDATA[
+import React, { Component } from 'react';
+import { Field, reduxForm } from 'redux-form';
+
+class Form extends Component {
+  render() {
+    const { handleSubmit } = this.props;
+
+    return (
+      <form onSubmit={handleSubmit}>
+
+        <button type="submit" className="btn">Create</button>
+      </form>
+    );
+  }
+}
+
+Form = reduxForm({
+  form: '$1'
+})(Form);
+
+export default Form;
+    	]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>rdf</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.js</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>Redux Form</description>
+</snippet>

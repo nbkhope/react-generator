@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+export const $1 = () => {
+  return dispatch => {
+    $2
+  };
+};
+    	]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>act</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.js</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>Action Creator with Redux Thunk</description>
+</snippet>
