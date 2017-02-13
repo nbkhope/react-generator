@@ -1,7 +1,7 @@
 // Synchronous
 export const acName = () => {
   return {
-
+    type: SOME_TYPE
   };
 };
 
