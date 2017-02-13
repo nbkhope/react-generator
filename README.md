@@ -21,3 +21,15 @@ Copy the contents of the file [snippets/react.cson](snippets/react.cson) to your
 | aca | Action Creator with Axios |
 | rdf | Redux Form (v6) |
 | ect | Enzyme Component Test |
+
+## Sublime Text 3 Snippets
+
+Snippets for Sublime Text are also available!
+
+Copy all the files inside the [sublime-snippets/](sublime-snippets/) directory into your own snippets directory. For Mac users, that would be `~/Users/$USER/Library/Application\ Support/Sublime\ Text\ 3/Packages/User`.
+
+```sh
+cp sublime-snippets/* ~/Users/$USER/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
+```
+
+See the table in the previous section for a listing of all the snippets available.
