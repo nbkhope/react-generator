@@ -1,0 +1,166 @@
+'.source.js.jsx':
+  'React Component':
+    'prefix': 'rc'
+    'body': """
+    import React, { Component } from 'react';
+
+    class $1 extends Component {
+      render() {
+        return (
+
+        );
+      }
+    }
+
+    export default $1;
+    """
+
+  'React Stateless Functional Component':
+    'prefix': 'rsfc'
+    'body': """
+    import React from 'react';
+
+    const $1 = (props) => {
+      return (
+
+      );
+    }
+
+    export default $1;
+    """
+
+  'Redux Component':
+    'prefix': 'rdc'
+    'body': """
+    import React, { Component } from 'react';
+    import { connect } from 'react-redux';
+
+    class $1 extends Component {
+      render() {
+        return (
+          $2
+        );
+      }
+    }
+
+    const mapStateToProps = (state) => {
+      return {};
+    };
+
+    export default connect(mapStateToProps)($1);
+    """
+
+  'Redux Reducer':
+    'prefix': 'rduc'
+    'body': """
+    import {
+
+    } from '../actions/types';
+
+    const INITIAL_STATE = {
+      $1
+    };
+
+    export default (state = INITIAL_STATE, action) => {
+      switch (action.type) {
+        default:
+          return state;
+      }
+    };
+    """
+
+  'Action Creator':
+    'prefix': 'ac'
+    'body': """
+    export const $1 = () => {
+      return {
+        type: $2
+      };
+    };
+    """
+
+  'Action Creator with Redux Thunk':
+    'prefix': 'act'
+    'body': """
+    export const $1 = () => {
+      return dispatch => {
+        $2
+      };
+    };
+    """
+
+  'Action Creator with Axios':
+    'prefix': 'aca'
+    'body': """
+    export const $1 = () => {
+      return dispatch => {
+      	dispatch({
+          type: $2_LOADING
+        });
+
+        return axios.get(`${ROOT_URL}/$3`)
+          .then(response => {
+            console.log(response.data);
+            return dispatch({
+              type: $2_SUCCESS,
+              payload: response.data
+            });
+          })
+          .catch(error => {
+            console.log(error);
+            return dispatch({
+              type: $2_FAILURE
+            })
+          });
+      };
+    };
+    """
+
+  'Redux Form':
+    'prefix': 'rdf'
+    'body': """
+    import React, { Component } from 'react';
+    import { Field, reduxForm } from 'redux-form';
+
+    class Form extends Component {
+      render() {
+        const { handleSubmit } = this.props;
+
+        return (
+          <form onSubmit={handleSubmit}>
+
+            <button type="submit" className="btn">Create</button>
+          </form>
+        );
+      }
+    }
+
+    Form = reduxForm({
+      form: '$1'
+    })(Form);
+
+    export default Form;
+    """
+
+  'Enzyme Component Test':
+    'prefix': 'ect'
+    'body': """
+    import React from 'react';
+    import { shallow } from 'enzyme';
+
+    import $1 from '../../components/$1';
+
+    describe('$1 component', () => {
+      let component;
+
+      beforeEach(() => {
+        component = shallow(
+          <$1 />
+        );
+      });
+
+      test('should do something', () => {
+
+      });
+    });
+    """
