@@ -6,7 +6,7 @@ No more writing React components from scratch
 
 Convenient snippets for the Atom text editor are provided! :)
 
-Copy the contents of the file <snippets/react.cson> to your Atom snippets.cson file that is located in `~/.atom/snippets.cson`.
+Copy the contents of the file [snippets/react.cson](snippets/react.cson) to your Atom snippets.cson file that is located in `~/.atom/snippets.cson`.
 
 ### Snippets Available
 
