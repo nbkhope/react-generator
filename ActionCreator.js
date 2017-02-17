@@ -33,7 +33,7 @@ export const acName = () => {
         console.log(error);
         return dispatch({
           type: VERB_RESOURCE_FAILURE
-        })
+        });
       });
   };
 };
