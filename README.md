@@ -21,6 +21,7 @@ Copy the contents of the file [snippets/react.cson](snippets/react.cson) to your
 | aca | Action Creator with Axios |
 | rdf | Redux Form (v6) |
 | ect | Enzyme Component Test |
+| rdu3 | Redux Reducer Three Cases (LOADING, SUCCESS, FAILURE) |
 
 ## Sublime Text 3 Snippets
 

@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+case $1_LOADING:
+  return { ...state, loading: true, error: null };
+case $1_SUCCESS:
+  return { ...state, $2: action.payload, loading: false, error: null };
+case $1_FAILURE:
+  return { ...state, loading: false, error: action.payload || 'Failed to verb $2' };
+};
+    	]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>rdu3</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.js</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>Redux Reducer Three Cases</description>
+</snippet>

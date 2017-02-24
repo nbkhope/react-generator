@@ -164,3 +164,14 @@
       });
     });
     """
+
+  'Redux Reducer Three Cases':
+    'prefix': 'rdu3'
+    'body': """
+    case $1_LOADING:
+      return { ...state, loading: true, error: null };
+    case $1_SUCCESS:
+      return { ...state, $2: action.payload, loading: false, error: null };
+    case $1_FAILURE:
+      return { ...state, loading: false, error: action.payload || 'Failed to verb $2' };
+    """
