@@ -175,3 +175,19 @@
     case $1_FAILURE:
       return { ...state, loading: false, error: action.payload || 'Failed to verb $2' };
     """
+
+  'Import Three Action Types':
+    'prefix': 'i3ac'
+    'body': """
+    $1_LOADING,
+    $1_SUCCESS,
+    $1_FAILURE,
+    """
+
+  'Define and Export Three Action Types':
+    'prefix': 'd3ac'
+    'body': """
+    export const $1_LOADING = '$1_LOADING';
+    export const $1_SUCCESS = '$1_SUCCESS';
+    export const $1_FAILURE = '$1_FAILURE';
+    """
