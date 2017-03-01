@@ -10,18 +10,20 @@ Copy the contents of the file [snippets/react.cson](snippets/react.cson) to your
 
 ### Snippets Available
 
-| Abbreviation | Description |
-|--------------|-------------|
-| rc | React Component |
-| rsfc | React Stateless Functional Component |
-| rdc | Redux Component |
-| rduc | Redux Reducer |
-| ac | Action Creator |
-| act | Action Creator with Redux Thunk |
-| aca | Action Creator with Axios |
-| rdf | Redux Form (v6) |
-| ect | Enzyme Component Test |
-| rdu3 | Redux Reducer Three Cases (LOADING, SUCCESS, FAILURE) |
+| Abbreviation | Description                                           |
+|:-------------|:------------------------------------------------------|
+| rc           | React Component                                       |
+| rsfc         | React Stateless Functional Component                  |
+| rdc          | Redux Component                                       |
+| rduc         | Redux Reducer                                         |
+| ac           | Action Creator                                        |
+| act          | Action Creator with Redux Thunk                       |
+| aca          | Action Creator with Axios                             |
+| rdf          | Redux Form (v6)                                       |
+| ect          | Enzyme Component Test                                 |
+| rdu3         | Redux Reducer Three Cases (LOADING, SUCCESS, FAILURE) |
+| d3ac         | Define and Export Three Action Types                  |
+| i3ac         | Import Three Action Types                             |
 
 ## Sublime Text 3 Snippets
 
