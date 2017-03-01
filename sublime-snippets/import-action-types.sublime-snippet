@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+$1_LOADING,
+$1_SUCCESS,
+$1_FAILURE,
+    	]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>i3ac</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.js</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>Import Three Action Types</description>
+</snippet>

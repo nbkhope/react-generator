@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+export const $1_LOADING = '$1_LOADING';
+export const $1_SUCCESS = '$1_SUCCESS';
+export const $1_FAILURE = '$1_FAILURE';
+    	]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>d3ac</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.js</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>Define and Export Three Action Types</description>
+</snippet>
