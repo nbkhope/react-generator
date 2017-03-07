@@ -4,6 +4,6 @@ const FuncCompName = (props) => {
   return (
 
   );
-}
+};
 
 export default FuncCompName;
